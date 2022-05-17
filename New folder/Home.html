@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>University of Woodland</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f5d7b5ca64.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+	<section class = "HOME_PAGE">								
+		<nav>	
+			<!-- Logo starts here -->
+			<div class="logo">
+				<h>WoodLands</h>
+				<h1>University College</h1>
+			</div>
+			<!-- logo ends here -->	
+			
+			<!-- Navagation items start here -->
+			<div class="Navagation_items" id= "eventListener">
+				<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="">HOME</a></li>
+						<li><a href="">CONTACT</a></li>
+						<li><a href="">COURSE</a></li>
+						<li><a href="">COMMUNITY</a></li>
+						<li><a href="">ABOUT US</a></li>
+					
+					</ul>				
+			</div>
+			<!-- Navagation item ends here -->
+			<i class="fa-solid fa-bars" onclick="showMenu()"></i>			
+		</nav>	
+		
+
+		<!-- Big Banner with college name starts here  -->
+		<div class="Name">
+			<div class="Woodland ">
+				Why.....<br>WoodLands
+			</div>
+			<div class="College">
+				University College???
+			</div>
+		</div>
+
+		<!-- Big Banner with college name ends here -->
+		
+		<!-- intro of Great people starts here -->
+		<div class ="into">
+			<div class="about_college">
+				<p1>
+				<span>The members of the team that promote Woodlands College are highly qualified</span>
+			    <span>and have extensive experience in the field of education entrepreneurship. </span>
+				<span>They have also proven their ability to teach and manage educational institutions.</span>
+				<span>The College of Woodlands is known for its academic excellence and for its success </span>
+				<span>producing graduates who are successful in their fields.</span> 
+				</p1>
+			</div>
+			<div class="Button">
+				<a href="" class="cta">Know More</a>
+			</div>
+		</div>
+		<!-- Thoughts section ends here -->
+
+		<!-- Container section contain 3 BOXSES -->
+		<!-- Box1 with education -->
+		<!-- Box2 with Hardwork -->
+		<!-- Box3 with Support -->
+
+		<div class="Container">
+
+			<div class = "Box_1">
+				<div class="icon_1">
+					<h1> <i class="fa-solid fa-graduation-cap"></i> EDUCATION</h1>
+					<h2> Change your life</h2>			
+				</div>
+			</div>
+
+			<div class="Box_2">
+				<h1><i class="fa-solid fa-chart-line"></i>HARD WORK</h1>
+				<h2>Change Your Future</h2>
+			</div>
+
+			<div class="Box_3">	
+				<h1><i class="fa-solid fa-hand-holding-hand"></i>SUPPORT</h1>
+				<h2>Encouage You</h2>
+			</div>
+
+		</div>
+		<!-- CONTAINER section ends here -->				
+	</section>
+
+	<script>
+		var eventListener = document.getElementById("eventListener");
+
+		function showMenu(){
+			eventListener.style.right = "0";
+		}
+
+		function hideMenu(){
+			eventListener.style.right = "-400px";
+		}
+	</script>
+</body>
+<footer>
+	<div class="Header">
+		<h>Transform yourself with WoodLands College</h>
+	</div>
+	<div class="offers">
+		<ul>
+			<li><a href="">COURSE</a></li>
+			<li><a href="">UNDERGRADUATE</a></li>
+			<li><a href="">POSTGRADUATE</a></li>
+			<li><a href="">STUDENT LIFE</a></li>
+			<li><a href=""> RESEARCH</a></li>
+			<li><a href="">COMMUNITY</a></li>
+		</ul>
+	</div>
+	<!-- This Ending section is for find us, contact us and follow -->
+	<div class="Ending">
+		<div class="Find_Us">
+			<h>Find Us..</h>
+			<p>Woodland college</p>
+			<i class="fa-solid fa-map-location"></i>
+
+			<!-- Disclaimer is here -->
+
+			<div class="Disclaimer">
+				<p>Disclaimer  | Accessibility  | Privacy</p>
+			</div>	
+		</div>
+
+		<div class="enquirie">
+			<i class="fa-solid fa-phone"></i>
+			<h>Contact us </h>
+			<p>Main 0123456789 | Enquirie 010203040506070</p>
+			<p>example@gmail.com</p>
+
+		</div>
+
+		<div class="Follow">
+			<h>Follow us</h>
+			<div class="i">
+				<i class="fa-brands fa-youtube"></i>
+				<i class="fa-brands fa-facebook-square"></i>
+				<i class="fa-brands fa-instagram"></i>
+				<i class="fa-brands fa-twitter"></i>
+				<i class="fa-brands fa-linkedin"></i>
+
+				<!-- Copyright is here -->
+				<div class="copyright">
+					<p>Copyright <i class="fa-regular fa-copyright"></i> 2022 WoodLands University and College</p>
+				</div>
+			</div>	
+				
+		</div>
+		
+		
+	</div>
+</footer>
+</html>
