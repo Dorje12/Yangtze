@@ -1,0 +1,1519 @@
+body{
+  margin: 0px;
+  }
+  
+  .title{
+    display: grid;
+    width: 100%;
+    height: 735px;
+    margin-top: 100px;
+    grid-template-columns: 63.5% 36.5%;
+  }
+  
+  .pic1{
+    background-image: url(https://woodland.local/public/images/Students.jpg);
+    margin-left: 48px;
+    margin-top: 60px;
+  }
+  
+  .heading{
+    margin-top: 0px;
+    background-color: #0c4331;
+    margin-right: 48px;
+  }
+  
+  .about{
+    font-family: Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 66.5px;
+    margin: 40px 30px 20px 30px;
+  }
+  
+  .des{
+    font-family: Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 29px;
+    margin: 0px 30px;  }
+  
+  .vms{
+    display: grid;
+    height: 610px;
+    grid-template-rows: 33% 33% 33%;
+    margin-top: 250px;
+    width: 100%;
+  }
+  
+  .vision{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 33% 67%;
+  }
+  
+  .vpic{
+    background-image: url(https://woodland.local/public/images/vision.png);
+    margin-left: 48px;
+  }
+
+  .eyepic{
+    height: 196px;
+    width: 195px;
+  }
+  
+  .vtext{
+    background: linear-gradient(105deg, #232381, #13dada);
+    margin-left: 0px;
+  }
+  
+  .vhead{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 33px;
+    margin: 19px;
+    
+  }
+  
+  .vdes{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 25px;
+    margin: 19px;
+  }
+  
+  .mission{
+    width: 50%;
+    margin-left: 50%;
+    display: grid;
+    grid-template-columns: 67% 33%;
+  }
+  
+  .mpic{
+    background-image: url(https://woodland.local/public/images/bowarrow1.png);
+    margin-right: 52px;
+    margin-left: 0px;
+  }
+
+  .targetpic{
+   height: 196px;
+   width: 195px;
+  }
+  
+  .mtext{
+     background: linear-gradient(235deg, #232381, #13dada);
+     margin-left: 0px;
+  }
+  
+  .mhead{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 33px;
+    margin: 19px;
+  }
+  
+  .mdes{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 25px;
+    margin: 19px;
+  }
+  
+  .strategy{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 33% 67%;
+  }
+  
+  .spic{
+    background-image: url(https://woodland.local/public/images/strategy.png);
+    margin-left: 48px;
+  }
+
+  .bulbpic{
+    height: 198px;
+    width: 195px;
+  }
+  
+  .stext{
+    background: linear-gradient(105deg, #232381, #13dada);
+    margin-left: 0px;
+  }
+  
+  .shead{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 33px;
+    margin: 19px;
+  }
+  
+  .sdes{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 25px;
+    margin: 19px;
+  }
+  
+  .teaching{
+    margin-top: 250px;
+    width: 100%;
+    height: 715px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+  }
+  
+  .tmpic{
+    background-image: url(https://woodland.local/public/images/classroom.jpg);
+    margin-top: 44px;
+    margin-right: 48px;
+  }
+  
+  .tmtext{
+    margin-left: 48px;
+    background-color: goldenrod;
+  }
+  
+  .tmhead{
+    font-family:Bahnschrift SemiCondensed;
+    font-size: 66.5px;
+    margin: 40px 30px 20px 30px;
+  }
+  
+  .tmdes{
+    font-family:Bahnschrift SemiCondensed;
+    font-size: 29px;
+    margin: 0px 30px;
+  }
+  
+  .student{
+    margin-top: 250px;
+    margin-bottom: 210px;
+    width: 100%;
+    height: 715px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+  }
+  
+  .stupic{
+    background-image: url(https://woodland.local/public/images/student.jpg);
+    margin-top: 44px;
+    margin-left: 48px;
+  }
+
+  .stutext{
+    margin-right: 48px;
+    background-color: #ffcec7;
+  }
+  
+  .stuhead{
+    font-family:Bahnschrift SemiCondensed;
+    font-size: 66.5px;
+    margin: 40px 30px 20px 30px;
+  }
+  
+  .studes{
+    font-family:Bahnschrift SemiCondensed;
+    font-size: 29px;
+    margin: 0px 30px;
+  }
+
+  /* For small sized mobile screen of width 320px */
+
+@media only screen and (max-width: 320px){
+  .title{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  }
+  
+  .pic1{
+  background-image: url(https://woodland.local/public/images/Students.jpg);
+  margin:20px 10px 0px 10px;
+  }
+  
+  .heading{
+  background-color: #0c4331;
+  margin:0px 10px 0px 10px;
+  }
+  
+  .about{
+  font-family: Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 28px;
+  margin: 20px 20px 15px;
+  }
+  
+  .des{
+  font-family: Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 18px;
+  margin: 0px 20px 40px;  
+  }
+  
+  .vms{
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+  margin-top: 50px;
+  width: 100%;
+  }
+  
+  .vision{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .vpic{
+  background-image: url(https://woodland.local/public/images/vision.png);
+  margin-left: 10px;
+  }
+
+  .eyepic{
+  margin-top: 20px;
+  margin-right: 2px;
+  height: 70px;
+  width: 70px;
+  }
+  
+  .vtext{
+  background: linear-gradient(105deg, #232381, #13dada);
+  margin-left: 0px;
+  margin-right: 10px;
+  }
+  
+  .vhead{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 20px;
+  margin: 10px 10px 0px;
+  }
+  
+  .vdes{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 15px;
+  margin: 5px 10px 15px;
+  }
+  
+  .mission{
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .mpic{
+  background-image: url(https://woodland.local/public/images/bowarrow1.png);
+  margin-right: 10px;
+  }
+
+  .targetpic{
+  margin-top: 23px;
+  margin-left: 0px;
+  height: 70px;
+  width: 70px;
+  }
+  
+  .mtext{
+  background: linear-gradient(235deg, #232381, #13dada);
+  margin-left: 10px;
+  }
+  
+  .mhead{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 20px;
+  margin: 10px 10px 0px;
+  }
+  
+  .mdes{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 15px;
+  margin: 5px 10px 15px;
+  }
+  
+  .strategy{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .spic{
+  background-image: url(https://woodland.local/public/images/strategy.png);
+  margin-left: 10px;  }
+
+  .bulbpic{
+  margin-top: 38px;
+  margin-right: 2px;
+  height: 70px;
+  width: 70px;
+  }
+  
+  .stext{
+  background: linear-gradient(105deg, #232381, #13dada);
+  margin-left: 0px;
+  margin-right: 10px;
+  }
+  
+  .shead{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 20px;
+  margin: 10px 10px 0px;
+  }
+  
+  .sdes{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 15px;
+  margin: 5px 10px 15px;
+  }
+  
+  .teaching{
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  }
+  
+  .tmpic{
+  background-image: url(https://woodland.local/public/images/classroom.jpg);
+  margin:20px 10px 0px 10px;
+  }
+  
+  .tmtext{
+  margin:0px 10px 0px 10px;
+  background-color: goldenrod;
+  }
+  
+  .tmhead{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 28px;
+  margin: 20px 20px 15px;
+  }
+  
+  .tmdes{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 18px;
+  margin: 0px 20px 40px;  
+  }
+  
+  .student{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  }
+  
+  .stupic{
+  background-image: url(https://woodland.local/public/images/student.jpg);
+  margin:20px 10px 0px 10px;
+  }
+
+  .stutext{
+  margin:0px 10px 0px 10px;
+  background-color: #ffcec7;
+  }
+  
+  .stuhead{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 28px;
+  margin: 20px 20px 15px;
+  }
+  
+  .studes{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 18px;
+  margin: 0px 20px 40px;  
+  }  
+  }
+
+/* For medium sized mobile screen of width 375px */
+@media only screen and (min-width: 321px) and (max-width: 376px){
+  .title{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  }
+  
+  .pic1{
+  background-image: url(https://woodland.local/public/images/Students.jpg);
+  margin:23px 13px 0px 13px;
+  }
+  
+  .heading{
+  background-color: #0c4331;
+  margin:0px 13px 0px 13px;
+  }
+  
+  .about{
+  font-family: Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 31px;
+  margin: 23px 23px 18px;
+  }
+  
+  .des{
+  font-family: Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 21px;
+  margin: 0px 23px 43px;  
+  }
+  
+  .vms{
+  display: flex;
+  flex-direction: column;
+  height: 424px;
+  margin-top: 153px;
+  width: 100%;
+  }
+  
+  .vision{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .vpic{
+  background-image: url(https://woodland.local/public/images/vision.png);
+  margin-left: 13px;
+  }
+
+  .eyepic{
+  margin-top: 28px;
+  margin-right: 5px;
+  height: 75px;
+  width: 75px;
+  }
+  
+  .vtext{
+  background: linear-gradient(105deg, #232381, #13dada);
+  margin-left: 0px;
+  margin-right: 13px;
+  }
+  
+  .vhead{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 23px;
+  margin: 13px 13px 0px;
+  }
+  
+  .vdes{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 18px;
+  margin: 8px 13px 18px;
+  }
+  
+  .mission{
+  width: 100%;
+  margin-top: 23px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .mpic{
+  background-image: url(https://woodland.local/public/images/bowarrow1.png);
+  margin-right: 13px;
+  }
+
+  .targetpic{
+  margin-top: 40px;
+  margin-left: 0px;
+  height: 75px;
+  width: 75px;
+  }
+  
+  .mtext{
+  background: linear-gradient(235deg, #232381, #13dada);
+  margin-left: 13px;
+  }
+  
+  .mhead{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 23px;
+  margin: 13px 13px 0px;
+  }
+  
+  .mdes{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 18px;
+  margin: 8px 13px 18px;
+  }
+  
+  .strategy{
+  width: 100%;
+  margin-top: 23px;
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .spic{
+  background-image: url(https://woodland.local/public/images/strategy.png);
+  margin-left: 13px;  }
+
+  .bulbpic{
+  margin-top: 50px;
+  margin-right: 5px;
+  height: 75px;
+  width: 75px;
+  }
+  
+  .stext{
+  background: linear-gradient(105deg, #232381, #13dada);
+  margin-left: 0px;
+  margin-right: 13px;
+  }
+  
+  .shead{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 23px;
+  margin: 13px 13px 0px;
+  }
+  
+  .sdes{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 18px;
+  margin: 8px 13px 18px;
+  }
+  
+  .teaching{
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  }
+  
+  .tmpic{
+  background-image: url(https://woodland.local/public/images/classroom.jpg);
+  margin:23px 13px 0px 13px;
+  }
+  
+  .tmtext{
+  margin:0px 13px 0px 13px;
+  background-color: goldenrod;
+  }
+  
+  .tmhead{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 31px;
+  margin: 23px 23px 18px;
+  }
+  
+  .tmdes{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 21px;
+  margin: 0px 23px 43px;  
+  }
+  
+  .student{
+  margin-top: 100px;
+  margin-bottom: 53px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  }
+  
+  .stupic{
+  background-image: url(https://woodland.local/public/images/student.jpg);
+  margin:23px 13px 0px 13px;
+  }
+
+  .stutext{
+  margin:0px 13px 0px 13px;
+  background-color: #ffcec7;
+  }
+  
+  .stuhead{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 31px;
+  margin: 23px 23px 18px;
+  }
+  
+  .studes{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 21px;
+  margin: 0px 23px 43px;  
+  }  
+  }
+
+/* For large sized mobile screen of width 425px */
+@media only screen and (min-width: 377px) and (max-width: 426px){
+  .title{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  }
+  
+  .pic1{
+  background-image: url(https://woodland.local/public/images/Students.jpg);
+  margin:26px 16px 0px 15px;
+  }
+  
+  .heading{
+  background-color: #0c4331;
+  margin:0px 16px 0px 16px;
+  }
+  
+  .about{
+  font-family: Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 35px;
+  margin: 25px 25px 22px;
+  }
+  
+  .des{
+  font-family: Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 25px;
+  margin: 0px 25px 45px;  
+  }
+  
+  .vms{
+  display: flex;
+  flex-direction: column;
+  height: 425px;
+  margin-top: 280px;
+  width: 100%;
+  }
+  
+  .vision{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .vpic{
+  background-image: url(https://woodland.local/public/images/vision.png);
+  margin-left: 15px;
+  }
+
+  .eyepic{
+  margin-top: 35px;
+  margin-right: 5px;
+  height: 80px;
+  width: 80px;
+  }
+  
+  .vtext{
+  background: linear-gradient(105deg, #232381, #13dada);
+  margin-left: 0px;
+  margin-right: 15px;
+  }
+  
+  .vhead{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 25px;
+  margin: 15px 15px 0px;
+  }
+  
+  .vdes{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 20px;
+  margin: 10px 15px 20px;
+  }
+  
+  .mission{
+  width: 100%;
+  margin-top: 25px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .mpic{
+  background-image: url(https://woodland.local/public/images/bowarrow1.png);
+  margin-right: 15px;
+  }
+
+  .targetpic{
+  margin-top: 40px;
+  margin-left: 0px;
+  height: 80px;
+  width: 80px;
+  }
+  
+  .mtext{
+  background: linear-gradient(235deg, #232381, #13dada);
+  margin-left: 15px;
+  }
+  
+  .mhead{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 25px;
+  margin: 15px 15px 0px;
+  }
+  
+  .mdes{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 20px;
+  margin: 10px 15px 20px;
+  }
+  
+  .strategy{
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .spic{
+  background-image: url(https://woodland.local/public/images/strategy.png);
+  margin-left: 15px;  }
+
+  .bulbpic{
+  margin-top: 55px;
+  margin-right: 5px;
+  height: 80px;
+  width: 80px;
+  }
+  
+  .stext{
+  background: linear-gradient(105deg, #232381, #13dada);
+  margin-left: 0px;
+  margin-right: 15px;
+  }
+  
+  .shead{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 25px;
+  margin: 15px 15px 0px;
+  }
+  
+  .sdes{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 20px;
+  margin: 10px 15px 20px;
+  }
+  
+  .teaching{
+  margin-top: 350px;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  }
+  
+  .tmpic{
+  background-image: url(https://woodland.local/public/images/classroom.jpg);
+  margin:25px 15px 0px 15px;
+  }
+  
+  .tmtext{
+  margin:0px 15px 0px 15px;
+  background-color: goldenrod;
+  }
+  
+  .tmhead{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 35px;
+  margin: 25px 25px 22px;
+  }
+  
+  .tmdes{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 25px;
+  margin: 0px 25px 45px;  
+  }
+  
+  .student{
+  margin-top: 130px;
+  margin-bottom: 280px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  }
+  
+  .stupic{
+  background-image: url(https://woodland.local/public/images/student.jpg);
+  margin:25px 15px 0px 15px;
+  }
+
+  .stutext{
+  margin:0px 15px 0px 15px;
+  background-color: #ffcec7;
+  }
+  
+  .stuhead{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 35px;
+  margin: 25px 25px 22px;
+  }
+  
+  .studes{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 25px;
+  margin: 0px 25px 45px;  
+  }  
+  }
+
+/* For tablets screen of width 768px */
+@media only screen and (min-width: 427px) and (max-width: 769px){
+  .title{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  }
+  
+  .pic1{
+  background-image: url(https://woodland.local/public/images/Students.jpg);
+  margin:30px 20px 0px 20px;
+  }
+  
+  .heading{
+  background-color: #0c4331;
+  margin:0px 20px 0px 20px;
+  }
+  
+  .about{
+  font-family: Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 45px;
+  margin: 30px 30px 25px;
+  }
+  
+  .des{
+  font-family: Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 25px;
+  margin: 0px 25px 45px;  
+  }
+  
+  .vms{
+  display: flex;
+  flex-direction: column;
+  height: 430px;
+  margin-top: 380px;
+  width: 100%;
+  }
+  
+  .vision{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .vpic{
+  background-image: url(https://woodland.local/public/images/vision.png);
+  margin-left: 20px;
+  }
+
+  .eyepic{
+  margin-top: 30px;
+  margin-right: 5px;
+  height: 90px;
+  width: 90px;
+  }
+  
+  .vtext{
+  background: linear-gradient(105deg, #232381, #13dada);
+  margin-left: 0px;
+  margin-right: 20px;
+  }
+  
+  .vhead{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 30px;
+  margin: 20px 20px 0px;
+  }
+  
+  .vdes{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 22px;
+  margin: 10px 20px 20px;
+  }
+  
+  .mission{
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .mpic{
+  background-image: url(https://woodland.local/public/images/bowarrow1.png);
+  margin-right: 20px;
+  }
+
+  .targetpic{
+  margin-top: 30px;
+  margin-left: 0px;
+  height: 90px;
+  width: 90px;
+  }
+  
+  .mtext{
+  background: linear-gradient(235deg, #232381, #13dada);
+  margin-left: 20px;
+  }
+  
+  .mhead{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 30px;
+  margin: 20px 20px 0px;
+  }
+  
+  .mdes{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 22px;
+  margin: 10px 20px 20px;
+  }
+  
+  .strategy{
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .spic{
+  background-image: url(https://woodland.local/public/images/strategy.png);
+  margin-left: 15px;  }
+
+  .bulbpic{
+  margin-top: 30px;
+  margin-right: 5px;
+  height: 90px;
+  width: 90px;
+  }
+  
+  .stext{
+  background: linear-gradient(105deg, #232381, #13dada);
+  margin-left: 0px;
+  margin-right: 20px;
+  }
+  
+  .shead{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 30px;
+  margin: 20px 20px 0px;
+  }
+  
+  .sdes{
+  font-family:Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 22px;
+  margin: 10px 20px 20px;
+  }
+  
+  .teaching{
+  margin-top: 370px;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  }
+  
+  .tmpic{
+  background-image: url(https://woodland.local/public/images/classroom.jpg);
+  margin:30px 20px 0px 20px;
+  }
+  
+  .tmtext{
+  margin:0px 15px 0px 15px;
+  background-color: goldenrod;
+  }
+  
+  .tmhead{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 45px;
+  margin: 30px 30px 25px;
+  }
+  
+  .tmdes{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 25px;
+  margin: 0px 25px 45px;  
+  }
+  
+  .student{
+  margin-top: 130px;
+  margin-bottom: 280px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  }
+  
+  .stupic{
+  background-image: url(https://woodland.local/public/images/student.jpg);
+  margin:30px 20px 0px 20px;
+  }
+
+  .stutext{
+  margin:0px 15px 0px 15px;
+  background-color: #ffcec7;
+  }
+  
+  .stuhead{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 45px;
+  margin: 30px 30px 25px;
+  }
+  
+  .studes{
+  font-family: Bahnschrift SemiCondensed;
+  font-size: 25px;
+  margin: 0px 25px 45px;  
+  }  
+  }
+/* For small sized laptos screen of size 1025px */
+@media only screen and (min-width: 770px) and (max-width: 1025px){
+  .title{
+    display: grid;
+    width: 100%;
+    height: 535px;
+    margin-top: 80px;
+    grid-template-columns: 63.5% 36.5%;
+  }
+  
+  .pic1{
+    background-image: url(https://woodland.local/public/images/Students.jpg);
+    margin-left: 20px;
+    margin-top: 70px;
+  }
+  
+  .heading{
+    margin-top: 0px;
+    background-color: #0c4331;
+    margin-right: 20px;
+  }
+  
+  .about{
+    font-family: Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 42px;
+    margin: 30px 20px 10px 20px;
+  }
+  
+  .des{
+    font-family: Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 23px;
+    margin: 0px 20px 30px; 
+   }
+  
+  .vms{
+    display: grid;
+    height: 600px;
+    grid-template-rows: 33% 33% 33%;
+    margin-top: 250px;
+    width: 100%;
+  }
+  
+  .vision{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 33% 67%;
+  }
+  
+  .vpic{
+    background-image: url(https://woodland.local/public/images/vision.png);
+    margin-left: 20px;
+  }
+
+  .eyepic{
+    margin-top: 20px;
+    height: 145px;
+    width: 145px;
+  }
+  
+  .vtext{
+    background: linear-gradient(105deg, #232381, #13dada);
+    margin-left: 0px;
+  }
+  
+  .vhead{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 30px;
+    margin: 15px;
+    
+  }
+  
+  .vdes{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 22px;
+    margin: 15px;
+  }
+  
+  .mission{
+    width: 50%;
+    margin-left: 50%;
+    display: grid;
+    grid-template-columns: 67% 33%;
+  }
+  
+  .mpic{
+    background-image: url(https://woodland.local/public/images/bowarrow1.png);
+    margin-right: 20px;
+    margin-left: 0px;
+  }
+
+  .targetpic{
+   margin-top: 20px;
+   height: 145px;
+   width: 145px;
+  }
+  
+  .mtext{
+     background: linear-gradient(235deg, #232381, #13dada);
+     margin-left: 0px;
+  }
+  
+  .mhead{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 30px;
+    margin: 15px;
+  }
+  
+  .mdes{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 22px;
+    margin: 15px;
+  }
+  
+  .strategy{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 33% 67%;
+  }
+  
+  .spic{
+    background-image: url(https://woodland.local/public/images/strategy.png);
+    margin-left: 20px;
+  }
+
+  .bulbpic{
+    margin-top: 35px;
+    height: 145px;
+    width: 145px;
+  }
+  
+  .stext{
+    background: linear-gradient(105deg, #232381, #13dada);
+    margin-left: 0px;
+  }
+  
+  .shead{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 30px;
+    margin: 15px;
+  }
+  
+  .sdes{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 22px;
+    margin: 15px;
+  }
+  
+  .teaching{
+    margin-top: 240px;
+    width: 100%;
+    height: 515px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+  }
+  
+  .tmpic{
+    background-image: url(https://woodland.local/public/images/classroom.jpg);
+    margin-right: 20px;
+    margin-top: 52px;
+  }
+  
+  .tmtext{
+    margin-left: 20px;
+    background-color: goldenrod;
+  }
+  
+  .tmhead{
+    font-family:Bahnschrift SemiCondensed;
+    font-size: 42px;
+    margin: 30px 20px 10px 20px;
+  }
+  
+  .tmdes{
+    font-family:Bahnschrift SemiCondensed;
+    font-size: 23px;
+    margin: 0px 20px 30px; 
+  }
+  
+  .student{
+    margin-top: 250px;
+    margin-bottom: 210px;
+    width: 100%;
+    height: 515px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+  }
+  
+  .stupic{
+    background-image: url(https://woodland.local/public/images/student.jpg);
+    margin-left: 20px;
+    margin-top: 65px;
+  }
+
+  .stutext{
+    margin-right: 20px;
+    background-color: #ffcec7;
+  }
+  
+  .stuhead{
+    font-family:Bahnschrift SemiCondensed;
+    font-size: 42px;
+    margin: 30px 20px 10px 20px;
+  }
+  
+  .studes{
+    font-family:Bahnschrift SemiCondensed;
+    font-size: 23px;
+    margin: 0px 20px 30px; 
+  }
+}
+
+/* For large sized laptops of screen 1440px */
+@media only screen and (min-width: 1025px) and (max-width: 1441px){
+  .title{
+    display: grid;
+    width: 100%;
+    height: 745px;
+    margin-top: 100px;
+    grid-template-columns: 63.5% 36.5%;
+  }
+  
+  .pic1{
+    background-image: url(https://woodland.local/public/images/Students.jpg);
+    margin-left: 48px;
+    margin-top: 82px;
+  }
+  
+  .heading{
+    margin-top: 0px;
+    background-color: #0c4331;
+    margin-right: 48px;
+  }
+  
+  .about{
+    font-family: Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 66.5px;
+    margin: 40px 30px 20px 30px;
+  }
+  
+  .des{
+    font-family: Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 29px;
+    margin: 0px 30px;  
+  }
+  
+  .vms{
+    display: grid;
+    height: 650px;
+    grid-template-rows: 33% 33% 33%;
+    margin-top: 250px;
+    width: 100%;
+  }
+  
+  .vision{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 33% 67%;
+  }
+  
+  .vpic{
+    background-image: url(https://woodland.local/public/images/vision.png);
+    margin-left: 48px;
+  }
+
+  .eyepic{
+    margin-top: 10px;
+    height: 183px;
+    width: 183px;
+  }
+  
+  .vtext{
+    background: linear-gradient(105deg, #232381, #13dada);
+    margin-left: 0px;
+  }
+  
+  .vhead{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 33px;
+    margin: 19px;
+    
+  }
+  
+  .vdes{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 25px;
+    margin: 19px;
+  }
+  
+  .mission{
+    width: 50%;
+    margin-left: 50%;
+    display: grid;
+    grid-template-columns: 67% 33%;
+  }
+  
+  .mpic{
+    background-image: url(https://woodland.local/public/images/bowarrow1.png);
+    margin-right: 52px;
+    margin-left: 0px;
+  }
+
+  .targetpic{
+   margin-top: 15px;
+   height: 183px;
+   width: 183px;
+  }
+  
+  .mtext{
+     background: linear-gradient(235deg, #232381, #13dada);
+     margin-left: 0px;
+  }
+  
+  .mhead{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 33px;
+    margin: 19px;
+  }
+  
+  .mdes{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 25px;
+    margin: 19px;
+  }
+  
+  .strategy{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 33% 67%;
+  }
+  
+  .spic{
+    background-image: url(https://woodland.local/public/images/strategy.png);
+    margin-left: 48px;
+  }
+
+  .bulbpic{
+    margin-top: 15px;
+    height: 183px;
+    width: 183px;
+  }
+  
+  .stext{
+    background: linear-gradient(105deg, #232381, #13dada);
+    margin-left: 0px;
+  }
+  
+  .shead{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 33px;
+    margin: 19px;
+  }
+  
+  .sdes{
+    font-family:Bahnschrift SemiCondensed;
+    color: white;
+    font-size: 25px;
+    margin: 19px;
+  }
+  
+  .teaching{
+    margin-top: 250px;
+    width: 100%;
+    height: 680px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+  }
+  
+  .tmpic{
+    background-image: url(https://woodland.local/public/images/classroom.jpg);
+    margin-top: 44px;
+    margin-right: 48px;
+  }
+  
+  .tmtext{
+    margin-left: 48px;
+    background-color: goldenrod;
+  }
+  
+  .tmhead{
+    font-family:Bahnschrift SemiCondensed;
+    font-size: 66.5px;
+    margin: 40px 30px 20px 30px;
+  }
+  
+  .tmdes{
+    font-family:Bahnschrift SemiCondensed;
+    font-size: 29px;
+    margin: 0px 30px;
+  }
+  
+  .student{
+    margin-top: 250px;
+    margin-bottom: 210px;
+    width: 100%;
+    height: 715px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+  }
+  
+  .stupic{
+    background-image: url(https://woodland.local/public/images/student.jpg);
+    margin-top: 60px;
+    margin-left: 48px;
+  }
+
+  .stutext{
+    margin-right: 48px;
+    background-color: #ffcec7;
+  }
+  
+  .stuhead{
+    font-family:Bahnschrift SemiCondensed;
+    font-size: 66.5px;
+    margin: 40px 30px 20px 30px;
+  }
+  
+  .studes{
+    font-family:Bahnschrift SemiCondensed;
+    font-size: 29px;
+    margin: 0px 30px;
+  }
+}
+
+
